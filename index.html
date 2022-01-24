@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>webapp</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/design.css">
+
+    <!-- Bootstrap CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <body>
+      <div class="header">
+        <h1>CREATE ACCOUNT</h1>
+      </div>
+        <br>
+        <br>
+       <div class="container">
+            <form id="login" onsubmit="process(event)">
+              <p> Enter Username</p>
+              <input id="text1" placeholder="username" />
+        <br/>
+        <br/>
+        <p> Enter Password</p>
+        <input type="password" id="text2" placeholder="password" />
+        <br>
+        <br>
+        <div id="phone-form">
+              <p>Enter your phone number:</p>
+              <input id="phone" type="tel" name="phone" />
+              <input type="submit" class="btn" value="Verify" />
+              <form id="verify-form">
+                <h2>Enter your verification code:</h2>
+                <input type="number" id="otp-input" placeholder="e.g. 123456"/>
+                <input id="verify-submit" type="submit"/>
+              
+            <br>
+            <br>
+        <button onclick="fn1()" id="btn1">Create <a href="./page1.html"></button>
+        </form>
+      </div>
+        </form>
+      <div id="response-text"></div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
